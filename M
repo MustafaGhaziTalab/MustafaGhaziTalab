@@ -1,0 +1,26 @@
+# Personal Information
+
+## Name:
+Mustafa Ghazi Talab
+
+## Age:
+Not specified
+
+## Residence:
+Baghdad, Iraq
+
+## Education:
+- Bachelor's degree in Computer Engineering
+- Currently pursuing a Master's degree in Computer Science at UTM University
+
+## Work Experience:
+Manager
+
+## Interests:
+- Programming
+- Machine Learning
+- Web Applications Development
+
+## Languages:
+- Arabic (Native)
+- English
