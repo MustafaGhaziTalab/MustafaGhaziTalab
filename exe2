@@ -1,0 +1,52 @@
+# // B-tree Node Structure
+struct BTreeNode {
+    bool is_leaf; // Indicates if the node is a leaf node
+    int num_keys; // Number of keys currently stored in the node
+    int keys[MAX_KEYS]; // Array to hold the keys
+    BTreeNode* children[MAX_CHILDREN]; // Array to hold the pointers to children nodes
+};
+
+// B-tree Structure
+struct BTree {
+    BTreeNode* root; // Pointer to the root node of the B-tree
+    int t; // Minimum degree (defines the range for the number of keys)
+};
+
+// Function to search a key in the B-tree
+BTreeNode* search(BTreeNode* node, int key) {
+    int i = 0;
+    while (i < node->num_keys && key > node->keys[i]) {
+        i++;
+    }
+    if (i < node->num_keys && key == node->keys[i]) {
+        return node;
+    }
+    if (node->is_leaf) {
+        return NULL;
+    }
+    return search(node->children[i], key);
+}
+
+// Function to insert a key into the B-tree
+void insert(BTree* tree, int key) {
+    BTreeNode* root = tree->root;
+    if (root->num_keys == (2 * tree->t) - 1) {
+        BTreeNode* new_root = new BTreeNode();
+        new_root->is_leaf = false;
+        new_root->num_keys = 0;
+        new_root->children[0] = root;
+        // Split the root
+        // Perform splitting logic here
+        tree->root = new_root;
+        // Call the function to insert into non-full node
+        // Perform insertion logic here
+    } else {
+        // Call the function to insert into non-full node
+        // Perform insertion logic here
+    }
+}
+
+// Function to delete a key from the B-tree
+void delete(BTree* tree, int key) {
+    // Perform deletion logic here
+}
