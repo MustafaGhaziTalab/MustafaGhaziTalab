@@ -1,7 +1,6 @@
 # Hello there! 👋 I'm Mustafa Ghazi Talab.
 
-![README.md](![photo_2023-04-07_16-52-05](https://github.com/MustafaGhaziTalab/MustafaGhaziTalab/assets/148042131/c0656574-1a4d-4f6b-8f60-dc4532d43ef3)
-)
+(<a href="https://imgur.com/wpj1r8B"><img src="https://i.imgur.com/wpj1r8B.jpg" title="source: imgur.com" /></a>)
 
 ## Personal Information:
 - **Country:** Iraq ![Iraq Flag](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/20px-Flag_of_Iraq.svg.png)
